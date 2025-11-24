@@ -1,7 +1,57 @@
 body{
-    background-color: black
+    background-image: url(/img/alex-perez-ioJBsYQ-pPM-unsplash.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family : "HARD_ROCK";
+    src: url(/fonts/HARD_ROCK.ttf);
+}
+
+@font-face {
+    font-family : "rocknroll_typo_crazy";
+    src: url(/fonts/rocknroll_typo_crazy.ttf);
+}
+
+@font-face {
+    font-family : "TheDark";
+    src: url(/fonts/TheDark.ttf);
+}
+
+h2{
+    font-family: "theDark";
+    color: white;
+}
+
+nav li a{
+    font-family: "rocknroll_typo_crazy";
+    color: red!important;
 }
 
 article{
-    margin-top: 50px;
+    margin-top: 60px;
+}
+
+#imgmembres{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.red{
+    color: red!important;
+}
+
+.btn-danger{
+    background-color: red!important;
+    font-family: "rocknroll_typo_crazy";
+    border: none;
+}
+
+td:hover{
+    background-color: grey;
 }

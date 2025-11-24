@@ -12,7 +12,7 @@
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/logo-ac-dc.png" alt="AcdcLogo" style="width:40px;"></a>
+            <a class="navbar-brand" href="#"><img src="/img/logo-ac-dc-removebg-preview.png" alt="AcdcLogo" width="100px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,17 +28,17 @@
                         <a class="nav-link" href="#discographie">Discographie</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Agenda de concert</a>
+                        <a class="nav-link" href="#agenda">Agenda de concert</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 <hr>
- <article>
+<article>
     <!-- carousel -->
     <section class="container">
         <div class="carousel slide" data-bs-ride="carousel">
@@ -69,32 +69,33 @@
     <!-- carousel fin -->
     <hr>
     <!-- Membres -->
-    <section id="membres" class="container">
-        <div class="row">
-            <img src="/img/logo-ac-dc.png" alt="logo acdc" class="mx-auto d-block mb-4" style="width:100px;">
-            <h2 class="text-center mb-4 text-light">Les membres du groupe</h2>
+    <section id="membres" class="container-fluid">
+        <div class="container">
+            <div class="d-flex justify-content-center mb-3">
+                <img src="/img/logo-ac-dc-removebg-preview.png" alt="logo acdc" class="me-2" width="100px">
+                <h2 class="text-light m-0">-- Les Membres du Groupe --</h2>
+            </div>
         </div>
-            <div class="d-flex flex-row">
-                <div class="container">
-                    <img src="/img/brian-johnson.png" class="img-thumbnail" alt="Brian Johnson">
-                    <h6 class="text-center text-light">Brian Johnson (Chant)</h6>
-                </div>
-                <div class="container">
-                    <img src="/img/angus-young.png" class="img-thumbnail" alt="Angus Young">
-                    <h6 class="text-center text-light">Angus Young (Guitare solo)</h6>
-                </div>
-                <div class="container">
-                    <img src="/img/steve-young.png" class="img-thumbnail" alt="Steve Young">
-                    <h6 class="text-center text-light">Steve Young (Guitare)</h6>
-                </div>
-                <div class="container">
-                    <img src="/img/cliff-williams.png" class="img-thumbnail" alt="Cliff Williams">
-                    <h6 class="text-center text-light">Cliff Williams (Basse)</h6>
-                </div>
-                <div class="container">
-                    <img src="/img/chris-slade.png" class="img-thumbnail" alt="Chris Slade">
-                    <h6 class="text-center text-light">Chris Slade (Batterie)</h6>
-                </div>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-1 text-center">
+            <div class="col">
+                <img id="imgmembres" src="/img/brian-johnson.png" class="img-fluid img-thumbnail" alt="Brian Johnson">
+                <h6 class="text-light">Brian Johnson (Chant)</h6>
+            </div>
+            <div class="col">
+                <img id="imgmembres" src="/img/angus-young.png" class="img-fluid img-thumbnail" alt="Angus Young">
+                <h6 class="text-light">Angus Young (Guitare solo)</h6>
+            </div>
+            <div class="col">
+                <img id="imgmembres" src="/img/steve-young.png" class="img-fluid img-thumbnail" alt="Steve Young">
+                <h6 class="text-light">Steve Young (Guitare)</h6>
+            </div>
+            <div class="col">
+                <img id="imgmembres" src="/img/cliff-williams.png" class="img-fluid img-thumbnail" alt="Cliff Williams">
+                <h6 class="text-light">Cliff Williams (Basse)</h6>
+            </div>
+            <div class="col">
+                <img id="imgmembres" src="/img/chris-slade.png" class="img-fluid img-thumbnail" alt="Chris Slade">
+                <h6 class="text-light">Chris Slade (Batterie)</h6>
             </div>
         </div>
     </section>
@@ -102,95 +103,179 @@
     <hr>
     <!-- discographie -->
      <section id="discographie" class="container">
-        <div class="card">
-            <img class="card-img-top" src="/img/Discographie/High-voltage-1975.jpg" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title">1975 : High Voltage</h4>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat, dolores quisquam reprehenderit explicabo ipsum consectetur?</p>
-                <a href="#" class="btn btn-primary">Lire plus...</a>
+        <div class="container">
+            <div class="d-flex justify-content-center mb-3">
+                <img src="/img/logo-ac-dc-removebg-preview.png" alt="logo acdc" class="me-2" width="100px">
+                <h2 class="text-light m-0">-- Discographie --</h2>
             </div>
         </div>
-        <div class="card">
-            <img class="card-img-top" src="/img/Discographie/Highway-to-hell-1979.jpg" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title">1979 : Highway to Hell</h4>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat, dolores quisquam reprehenderit explicabo ipsum consectetur?</p>
-                <a href="#" class="btn btn-primary">Lire plus...</a>
+        <div class="row row-cols-2 row-cols-md-4 gap-4 justify-content-center">
+            <div class="col card">
+                <img class="card-img-top" src="/img/Discographie/High-voltage-1975.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">1975 : High Voltage</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat, dolores quisquam reprehenderit explicabo ipsum consectetur?</p>
+                    <a href="#" class="btn btn-danger">Lire plus...</a>
+                </div>
+            </div>
+            <div class="col card">
+                <img class="card-img-top" src="/img/Discographie/Highway-to-hell-1979.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">1979 : Highway to Hell</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat, dolores quisquam reprehenderit explicabo ipsum consectetur?</p>
+                    <a href="#" class="btn btn-danger">Lire plus...</a>
+                </div>
+            </div>
+            <div class="col card">
+                <img class="card-img-top" src="/img/Discographie/Back-in-black-1980.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">1980 : Back in Black</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat, dolores quisquam reprehenderit explicabo ipsum consectetur?</p>
+                    <a href="#" class="btn btn-danger">Lire plus...</a>
+                </div>
+            </div>
+            <div class="col card">
+                <img class="card-img-top" src="/img/Discographie/Who-made-who-1986.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">1986 : Who Made Who</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat, dolores quisquam reprehenderit explicabo ipsum consectetur?</p>
+                    <a href="#" class="btn btn-danger">Lire plus...</a>
+                </div>
+            </div>
+            <div class="col card">
+                <img class="card-img-top" src="/img/Discographie/Blow-up-your-video-1988.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">1988 : Blow Up Your Video</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat, dolores quisquam reprehenderit explicabo ipsum consectetur?</p>
+                    <a href="#" class="btn btn-danger">Lire plus...</a>
+                </div>
+            </div>
+            <div class="col card">
+                <img class="card-img-top" src="/img/Discographie/Razor-edge-1990.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">1990 : Razor Edge</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat, dolores quisquam reprehenderit explicabo ipsum consectetur?</p>
+                    <a href="#" class="btn btn-danger">Lire plus...</a>
+                </div>
+            </div>
+            <div class="col card">
+                <img class="card-img-top" src="/img/Discographie/Ballbreaker-1995.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">1995 : Ballbreaker</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat, dolores quisquam reprehenderit explicabo ipsum consectetur?</p>
+                    <a href="#" class="btn btn-danger">Lire plus...</a>
+                </div>
+            </div>
+            <div class="col card">
+                <img class="card-img-top" src="/img/Discographie/Stiff-upper-lip-2000.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">2000 : Stiff Upper Lip</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat, dolores quisquam reprehenderit explicabo ipsum consectetur?</p>
+                    <a href="#" class="btn btn-danger">Lire plus...</a>
+                </div>
+            </div>
+            <div class="col card">
+                <img class="card-img-top" src="/img/Discographie/Black-ice-2008.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">2008 : Black Ice</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat, dolores quisquam reprehenderit explicabo ipsum consectetur?</p>
+                    <a href="#" class="btn btn-danger">Lire plus...</a>
+                </div>
             </div>
         </div>
-        <div class="card">
-            <img class="card-img-top" src="/img/Discographie/Back-in-black-1980.jpg" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title">1980 : Back in Black</h4>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat, dolores quisquam reprehenderit explicabo ipsum consectetur?</p>
-                <a href="#" class="btn btn-primary">Lire plus...</a>
+    </section>
+    <!-- fin discographie -->
+    <hr>
+    <!-- agenda -->
+    <section>
+        <div id="agenda" class="container">
+            <div class="d-flex justify-content-center mb-3">
+                <img src="/img/logo-ac-dc-removebg-preview.png" alt="logo acdc" class="me-2" width="100px">
+                <h2 class="text-light m-0">-- Les Dates des Concerts --</h2>
             </div>
         </div>
-        <div class="card">
-            <img class="card-img-top" src="/img/Discographie/Who-made-who-1986.jpg" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title">1986 : Who Made Who</h4>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat, dolores quisquam reprehenderit explicabo ipsum consectetur?</p>
-                <a href="#" class="btn btn-primary">Lire plus...</a>
+        <div class="container mb-5">
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th class="red">Date</th>
+                        <th class="red">Heure</th>
+                        <th class="red">Salle</th>
+                        <th class="red">Ville</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>15 Juin 2024</td>
+                        <td>21:30</td>
+                        <td>Stade de France</td>
+                        <td>Paris</td>
+                    </tr>
+                    <tr>
+                        <td>22 Juin 2024</td>
+                        <td>20:00</td>
+                        <td>Olympiastadion</td>
+                        <td>Berlin</td>
+                    </tr>
+                    <tr>
+                        <td>30 Juin 2024</td>
+                        <td>22:00</td>
+                        <td>WiZink Center</td>
+                        <td>Madrid</td>
+                    </tr>
+                    <tr>
+                        <td>15 juillet 2024</td>
+                        <td>21:30</td>
+                        <td>Stade de France</td>
+                        <td>Paris</td>
+                    </tr>
+                    <tr>
+                        <td>22 juillet 2024</td>
+                        <td>20:00</td>
+                        <td>Olympiastadion</td>
+                        <td>Berlin</td>
+                    </tr>
+                    <tr>
+                        <td>30 août 2024</td>
+                        <td>22:00</td>
+                        <td>WiZink Center</td>
+                        <td>Madrid</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- fin agenda -->
+    <hr>
+    <!-- Contact -->
+     <footer>
+        <div id="contact" class="container">
+            <div class="d-flex justify-content-center mb-3">
+                <img src="/img/logo-ac-dc-removebg-preview.png" alt="logo acdc" class="me-2" width="100px">
+                <h2 class="text-light m-0">-- Contactez-nous --</h2>
             </div>
         </div>
-        <div class="card">
-            <img class="card-img-top" src="/img/Discographie/Blow-up-your-video-1988.jpg" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title">1988 : Blow Up Your Video</h4>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat, dolores quisquam reprehenderit explicabo ipsum consectetur?</p>
-                <a href="#" class="btn btn-primary">Lire plus...</a>
+        <form class="container mb-5">
+            <div class="row">
+                <div class="col-sm mb-3">
+                    <input type="text red" class="form-control" placeholder="Nom">
+                </div>
+                <div class="col-sm mb-3">
+                    <input type="text" class="form-control" placeholder="Prénom">
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="/img/Discographie/Razor-edge-1990.jpg" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title">1990 : Razor Edge</h4>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat, dolores quisquam reprehenderit explicabo ipsum consectetur?</p>
-                <a href="#" class="btn btn-primary">Lire plus...</a>
+            <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Email">
             </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="/img/Discographie/Ballbreaker-1995.jpg" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title">1995 : Ballbreaker</h4>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat, dolores quisquam reprehenderit explicabo ipsum consectetur?</p>
-                <a href="#" class="btn btn-primary">Lire plus...</a>
+            <div class="mb-3">
+                <textarea class="form-control" rows="4" placeholder="Votre message"></textarea>
             </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="/img/Discographie/Stiff-upper-lip-2000.jpg" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title">2000 : Stiff Upper Lip</h4>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat, dolores quisquam reprehenderit explicabo ipsum consectetur?</p>
-                <a href="#" class="btn btn-primary">Lire plus...</a>
+            <div class="text-center">
+                <button type="submit" class="btn btn-danger">Envoyer</button>
+                <button type="submit" class="btn btn-danger">Annuler</button>
             </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="/img/Discographie/Black-ice-2008.jpg" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title">2008 : Black Ice</h4>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat, dolores quisquam reprehenderit explicabo ipsum consectetur?</p>
-                <a href="#" class="btn btn-primary">Lire plus...</a>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="/img/Discographie/Rock-or-Bust-2014.jpg" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title">2014 : Rock or Bust</h4>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat, dolores quisquam reprehenderit explicabo ipsum consectetur?</p>
-                <a href="#" class="btn btn-primary">Lire plus...</a>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="/img/Discographie/Power-up-2020.jpg" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title">2020 : Power Up</h4>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellat, dolores quisquam reprehenderit explicabo ipsum consectetur?</p>
-                <a href="#" class="btn btn-primary">Lire plus...</a>
-            </div>
-        </div>
-     </section>
+        </form>
+     </footer>
 </article>
 </body>
 </html>
